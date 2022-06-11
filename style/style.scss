@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2rem;
+    background: rgb(253, 253, 253) !important;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+header {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    
+    .logo {
+        align-self: center;
+        margin: 0 auto;
+    }
+}
+
+main {
+    text-align: center;
+
+    h1 {
+        font-weight: 300;
+        font-size: xx-large;
+        color: gray;
+
+        span {
+            font-weight: 600;
+            color: #1f1f1f;
+        }
+    }
+
+    p {
+        padding: 1rem 0;
+        color: #292929;
+        font-weight: 500;
+    }
+
+    .container-form {
+        padding: 1rem 0;
+
+        input {
+            border: 2px solid rgb(196, 197, 231);
+        }
+
+        ::placeholder {
+            color: rgb(196, 197, 231);
+        }
+    }
+
+    .illustration {
+        width: 100%;
+        padding: 3rem 0;
+    }
+}
+
+.input-email {
+    border-radius: 20px !important;
+    margin-bottom: .7em;
+    padding: .6em 2em !important;
+}
+
+.btn-submit {
+    width: 100%;
+    border-radius: 20px !important;
+    box-shadow: 8px 10px 16px rgba($color: #2e35ff, $alpha: 0.5);
+    transition: all .3s ease-in-out;
+    padding: .6em 2em !important;
+
+    &:active {
+        transform: scale(.9);
+    }
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0 2rem;
+    
+    .icon {
+        width: 45px;
+        height: 45px;
+        background: transparent;
+        border: 1px solid rgb(196, 197, 231);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .5em;
+        border-radius: 50%;
+    
+        i {
+            color: #2e35ff;
+            font-size: 1.3em;
+        }
+    }
+}
+
+.before-footer {
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .container-form {
+        width: 60%;
+        margin: auto;
+    }
+
+    main {
+        .illustration {
+            width: 60%;
+        }
+    }
+}

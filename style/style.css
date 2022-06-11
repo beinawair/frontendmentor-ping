@@ -1,0 +1,166 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 2rem;
+  background: #fdfdfd !important;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+header {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 0;
+}
+
+header .logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0 auto;
+}
+
+main {
+  text-align: center;
+}
+
+main h1 {
+  font-weight: 300;
+  font-size: xx-large;
+  color: gray;
+}
+
+main h1 span {
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+main p {
+  padding: 1rem 0;
+  color: #292929;
+  font-weight: 500;
+}
+
+main .container-form {
+  padding: 1rem 0;
+}
+
+main .container-form input {
+  border: 2px solid #c4c5e7;
+}
+
+main .container-form ::-webkit-input-placeholder {
+  color: #c4c5e7;
+}
+
+main .container-form :-ms-input-placeholder {
+  color: #c4c5e7;
+}
+
+main .container-form ::-ms-input-placeholder {
+  color: #c4c5e7;
+}
+
+main .container-form ::placeholder {
+  color: #c4c5e7;
+}
+
+main .illustration {
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.input-email {
+  border-radius: 20px !important;
+  margin-bottom: .7em;
+  padding: .6em 2em !important;
+}
+
+.btn-submit {
+  width: 100%;
+  border-radius: 20px !important;
+  -webkit-box-shadow: 8px 10px 16px rgba(46, 53, 255, 0.5);
+          box-shadow: 8px 10px 16px rgba(46, 53, 255, 0.5);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  padding: .6em 2em !important;
+}
+
+.btn-submit:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6rem 0 2rem;
+}
+
+.social-icons .icon {
+  width: 45px;
+  height: 45px;
+  background: transparent;
+  border: 1px solid #c4c5e7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: .5em;
+  border-radius: 50%;
+}
+
+.social-icons .icon i {
+  color: #2e35ff;
+  font-size: 1.3em;
+}
+
+.before-footer {
+  color: gray;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container-form {
+    width: 60%;
+    margin: auto;
+  }
+  main .illustration {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
